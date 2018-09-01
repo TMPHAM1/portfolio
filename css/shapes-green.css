@@ -948,6 +948,7 @@ a.btn-theme:focus{
 	animation: rotation 1s linear infinite;
 }
 
+
 @-webkit-keyframes rotation {
 	0% 		{ -webkit-transform: rotate(0deg); }
 	50% 	{ -webkit-transform: rotate(180deg); }
@@ -981,7 +982,7 @@ a.btn-theme:focus{
 }
 
 #project-preview {
-    color:#fff;
+    color:black;
     -webkit-transform:scale(0);
     transform:scale(0);
     -webkit-transition:all .6s ease-out;
@@ -992,11 +993,16 @@ a.btn-theme:focus{
     -webkit-transform:scale(1);
     transform:scale(1);
 }
+#project-preview.open .container {
+    border: black 2px solid;
+}
 
 .no-overlay #project-preview-wrapper {
     background:rgba(0,0,0,0.4);
 }
-
+.preview-title {
+    text-align: center;
+}
 #project-preview h1,
 #project-preview h2,
 #project-preview h3,
@@ -1036,7 +1042,7 @@ a.btn-theme:focus{
     right:0;
     font-size:24px;
     line-height:34px;
-    color:#fff;
+    color:#000  ;
     cursor:pointer;
     padding:0 10px;
     -webkit-transform:scale(1);
@@ -1053,6 +1059,12 @@ a.btn-theme:focus{
 #preview-content {
     padding:20px 0 40px;
 }
+
+#preview-details {
+    text-align: center;
+    margin: 0;
+}
+
 
 #preview-details h2{
     margin-top:0;
@@ -1090,6 +1102,12 @@ a.btn-theme:focus{
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
+}
+.flexslider .slides img {
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .flex-direction-nav{
@@ -1994,6 +2012,10 @@ a.btn-theme:focus{
 
 #preview-details{
     margin-top: 50px;
+    text-align: center;
+}  
+#preview-details h2{
+    text-align: center;
 }  
 
 #twitter-slider .tweet{
