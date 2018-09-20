@@ -541,7 +541,7 @@ a.btn-theme:focus{
 
 }
 
-#services .item:hover [class*=fa] {
+#services .item [class*=fa] {
     color:#21B799;
     -webkit-transform:scale(1.2);
     transform:scale(1.2);
@@ -2105,4 +2105,5 @@ p {
 	padding-top:14px;
 }
 
+}
 }
