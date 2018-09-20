@@ -554,6 +554,16 @@ a.btn-theme:focus{
     margin:0;
     border-bottom:1px dotted #ddd;
 }
+.skills { 
+    height: 100%;
+    
+}
+.skills img {
+    height: 15vh;
+    margin: 40px
+
+} 
+
 
 /*-------------------------
 ------Call to action-------
@@ -1104,7 +1114,6 @@ a.btn-theme:focus{
     user-select: none;
 }
 .flexslider .slides img {
-    width: 50%;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -1874,7 +1883,9 @@ a.btn-theme:focus{
 }
 
 @media (max-width: 991px) {
-
+    .skills img {
+        height: 13vh;
+    }
 .jumbotron .message-box{
 	padding:10px 0;
 }
@@ -1906,7 +1917,9 @@ a.btn-theme:focus{
 }
 
 @media (max-width: 767px) {
-
+    .skills img {
+        height: 8vh;
+    }
 #main-nav .navbar-brand{
     font-size:24px;
 }
@@ -2027,7 +2040,12 @@ a.btn-theme:focus{
 	display:none !important;
 }
 
+@media (min-width:427px) and (max-width: 623px) {
+    
 }
+ 
+
+
 
 @media (max-width: 479px) {
 
