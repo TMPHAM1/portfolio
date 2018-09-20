@@ -541,7 +541,7 @@ a.btn-theme:focus{
 
 }
 
-#services .item:hover [class*=fa] {
+#services .item [class*=fa] {
     color:#21B799;
     -webkit-transform:scale(1.2);
     transform:scale(1.2);
@@ -1886,6 +1886,7 @@ a.btn-theme:focus{
     .skills img {
         height: 13vh;
     }
+
 .jumbotron .message-box{
 	padding:10px 0;
 }
@@ -1920,6 +1921,7 @@ a.btn-theme:focus{
     .skills img {
         height: 8vh;
     }
+
 #main-nav .navbar-brand{
     font-size:24px;
 }
@@ -2040,9 +2042,8 @@ a.btn-theme:focus{
 	display:none !important;
 }
 
-@media (min-width:427px) and (max-width: 623px) {
-    
 }
+
  
 
 
