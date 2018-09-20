@@ -553,6 +553,7 @@ a.btn-theme:focus{
     padding:10px 60px;
     margin:0;
     border-bottom:1px dotted #ddd;
+    font-weight: 300;
 }
 .skills { 
     height: 100%;
@@ -1004,7 +1005,13 @@ a.btn-theme:focus{
     transform:scale(1);
 }
 #project-preview.open .container {
-    border: black 2px solid;
+   
+    /* background-color: white; */
+}
+.concertBuddyBackground {
+    background-image: url('../assets/projects/concert_background.jpeg');
+    background-repeat: no-repeat;
+    background-size:  cover;
 }
 
 .no-overlay #project-preview-wrapper {
@@ -1886,7 +1893,6 @@ a.btn-theme:focus{
     .skills img {
         height: 13vh;
     }
-
 .jumbotron .message-box{
 	padding:10px 0;
 }
@@ -1921,7 +1927,6 @@ a.btn-theme:focus{
     .skills img {
         height: 8vh;
     }
-
 #main-nav .navbar-brand{
     font-size:24px;
 }
@@ -2041,9 +2046,11 @@ a.btn-theme:focus{
 #twitter-slider .flex-direction-nav{
 	display:none !important;
 }
-
 }
 
+@media (min-width:427px) and (max-width: 623px) {
+    
+}
  
 
 

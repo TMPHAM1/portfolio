@@ -194,9 +194,13 @@ $(document).ready(function() {
 	==============================================*/
 	$('.project-item').click(function(e){
 		e.preventDefault();
+		if ($(this).hasClass('concertbuddy')) { 
+			$('#project-preview').addClass('concertBuddyBackground');
+		}
 		
 		if($(this).hasClass('active')){return false;}
 		$('.project-item').removeClass('active');
+		
 		
 		
 		var elem =$(this);
@@ -205,7 +209,7 @@ $(document).ready(function() {
 			{
 				gap:{y:-120},
 				animation:{
-					duration:600
+					duration:1000
 				}
 		});
 			
@@ -219,6 +223,7 @@ $(document).ready(function() {
 			},1000);
 		}else{
 			elem.addClass('active');
+			if ($(''))
 			buildPreview(elem);
 		}
 	
@@ -303,6 +308,7 @@ $(document).ready(function() {
 		});
 		$('#project-preview').addClass('open');
 		
+		
 	}
 	
 	function closePreview() {
@@ -319,6 +325,7 @@ $(document).ready(function() {
 		});
 		$('#project-preview').removeClass('open');
 		$('.project-item').removeClass('active');
+		$('#project-preview').removeClass('concertBuddyBackground')
 	}
 	
 	/*============================================
