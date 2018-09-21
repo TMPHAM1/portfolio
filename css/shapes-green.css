@@ -4,7 +4,7 @@
 body{
 	font-family: Roboto, sans-serif;
 	font-size:18px;
-	color:#5d5e5f;
+	color:rgb(213, 210, 210);
 	font-weight:100;
 	overflow-x:hidden;
 }
@@ -54,13 +54,13 @@ a:focus {
 }
 
 .bg-transparent a {
-  color: #fff;
+  color: #2d2e2f;
   text-decoration: underline;
 }
 
 .bg-transparent a:hover,
 .bg-transparent a:focus {
-  color: #fff;
+  color: #2d2e2f;
   text-decoration: none;
 }
 
@@ -80,7 +80,7 @@ a:focus,
     position:fixed;
     width:100%;
     height:100%;
-    background:#fff;
+    background:#2d2e2f;
     z-index:9999;
 }
 
@@ -137,7 +137,7 @@ a:focus,
 }
 
 .bg-light {
-    background:#fff;
+    background:#2d2e2f;
 }
 
 .bg-transparent {
@@ -145,7 +145,7 @@ a:focus,
     padding:60px 0 40px;
     border-top:60px solid rgba(255,255,255,0.3);
     border-bottom:60px solid rgba(255,255,255,0.3);
-    color:#fff;
+    color:#2d2e2f;
 }
 
 .no-rgba .bg-transparent {
@@ -205,7 +205,7 @@ a:focus,
 .section-icon [class*=fa]{
     font-size:32px;
     line-height:80px;
-    color:#fff;
+    color:#2d2e2f;
 }
 
 .section-title{
@@ -214,7 +214,7 @@ a:focus,
     top:-35px;
     margin:0px;
     padding:0 40px;
-    background:#fff;
+    background:#2d2e2f;
     font-size:42px;
     line-height:64px;
     font-weight:100;
@@ -231,7 +231,7 @@ a:focus,
 ----- Buttons ------
 --------------------*/
 .btn-theme{
-	color:#fff;
+	color:#2d2e2f;
 	background-color:#21B799;
 	padding:15px 40px;
 	font-size:28px;
@@ -246,7 +246,7 @@ a:focus,
 .btn-theme:hover,
 a.btn-theme:hover{
 	cursor:pointer;
-	color:#fff;
+	color:#2d2e2f;
 	opacity:0.8;
 }
 
@@ -254,7 +254,7 @@ a.btn-theme:hover{
 .btn-theme:focus,
 a.btn-theme:active,
 a.btn-theme:focus{
-	color:#fff;
+	color:#2d2e2f;
 }
 
 .btn-theme [class*=fa]{
@@ -264,7 +264,7 @@ a.btn-theme:focus{
 .bg-transparent .btn-theme {
     margin:0;
     background:transparent;
-    border:3px solid #fff;
+    border:3px solid #2d2e2f;
     border-radius:5px;
     font-size:21px;
     padding:15px 20px;
@@ -275,7 +275,7 @@ a.btn-theme:focus{
 
 .bg-transparent .btn-theme:hover {
     opacity:1;
-    background:#fff;
+    background:#2d2e2f;
     color:#21B799;
 }
 
@@ -288,7 +288,7 @@ a.btn-theme:focus{
 }
 
 #main-nav .icon-bar {
-    background:#fff;
+    background:#2d2e2f;
 }
 
 .navbar-brand,
@@ -316,14 +316,14 @@ a.btn-theme:focus{
 
 #main-nav{
     background:transparent;
-    background:#fff;
-    color:#fff;
+    background:#2d2e2f;
+    color:#2d2e2f;
     box-shadow:0 0 0px transparent;
     
 }
 
 #main-nav.scrolled{
-    background:#fff;
+    background:#2d2e2f;
     border-bottom:1px solid #eee;
 }
 
@@ -423,7 +423,7 @@ a.btn-theme:focus{
 
 .jumbotron {
     background:transparent;
-    color:#fff;
+    color:#2d2e2f;
     padding:0;
     margin-bottom:0;
     min-height:500px;
@@ -644,7 +644,7 @@ a.btn-theme:focus{
     height:30px;
     font-size:18px;
     line-height:30px;
-    background:#fff;
+    background:#2d2e2f;
     border:1px solid #21B799;
     border-radius:50%;
 }
@@ -693,7 +693,7 @@ a.btn-theme:focus{
 #about .member-socials li a{
     display:inline-block;
     padding:0;
-    background:#fff;
+    background:#2d2e2f;
     width:50px;
     height:50px;
     font-size:24px;
@@ -706,7 +706,7 @@ a.btn-theme:focus{
 
 #about .member-socials li a:hover{
     background:#21B799;
-    color:#fff;
+    color:#2d2e2f;
 }
 
 /*----------------------
@@ -761,7 +761,7 @@ a.btn-theme:focus{
 
 #filter-works ul li.active a,
 #filter-works ul li:hover a{
-    color:#fff;
+    color:#2d2e2f;
     background:#21B799;
 }
 
@@ -838,7 +838,7 @@ a.btn-theme:focus{
     padding:20px;
     text-align:center;
     color:#777;
-    background:#fff;
+    background:#2d2e2f;
     border-bottom:3px solid #21B799;
     border-color:transparent;
     z-index:2;
@@ -927,7 +927,7 @@ a.btn-theme:focus{
 	bottom: 100px;
 	left: -60px;
 	display: block;
-	border: 7px solid #fff;
+	border: 7px solid #FFF;
 	border-radius: 50%;
 	content: '';
 }
@@ -1037,20 +1037,20 @@ a.btn-theme:focus{
 }
 
 #project-preview a {
-  color: #fff;
+  color: #2d2e2f;
   text-decoration: underline;
 }
 
 #project-preview a:hover,
 #project-preview a:focus {
-  color: #fff;
+  color: #2d2e2f;
   text-decoration: none;
 }
 
 .preview-header {
     margin:40px 0;
     position:relative;
-    border-bottom:1px solid #fff;
+    border-bottom:1px solid #2d2e2f;
 }
 
 .close-preview {
@@ -1098,7 +1098,7 @@ a.btn-theme:focus{
     font-size:16px;
     font-weight:400;
     letter-spacing:0.02em;
-    border-bottom:1px dotted #fff;
+    border-bottom:1px dotted #2d2e2f;
 }
 
 #preview-details span{
@@ -1132,9 +1132,9 @@ a.btn-theme:focus{
 
 .flex-control-nav {width: 100%; position: absolute; bottom: -40px; text-align: center;}
 .flex-control-nav li {margin: 0 6px; display: inline-block; zoom: 1; *display: inline;}
-.flex-control-paging li a {padding:0px; width: 16px; height: 16px; display: block; background: transparent; cursor: pointer; text-indent: -9999px; border:2px solid #fff; -webkit-border-radius: 20px; -moz-border-radius: 20px; -o-border-radius: 20px; border-radius: 20px; box-shadow: none;}
-.flex-control-paging li a:hover { background: #fff; }
-.flex-control-paging li a.flex-active { background: #fff; cursor: default; }
+.flex-control-paging li a {padding:0px; width: 16px; height: 16px; display: block; background: transparent; cursor: pointer; text-indent: -9999px; border:2px solid #2d2e2f; -webkit-border-radius: 20px; -moz-border-radius: 20px; -o-border-radius: 20px; border-radius: 20px; box-shadow: none;}
+.flex-control-paging li a:hover { background: #2d2e2f; }
+.flex-control-paging li a.flex-active { background: #2d2e2f; cursor: default; }
 
 /*----------------------
 -----Testimonials ------
@@ -1224,7 +1224,7 @@ a.btn-theme:focus{
     margin-left:7px;
     font-size:42px;
     line-height:38px;
-    color:#fff;
+    color:#2d2e2f;
     border-radius:50%;
     -webkit-transition:all .2s ease-out;
     transition:all .2s ease-out;
@@ -1247,7 +1247,7 @@ a.btn-theme:focus{
 }
 
 #testimonials-slider .flex-direction-nav a:hover {  
-    background:#fff;
+    background:#2d2e2f;
     color:#21B799;
 }
 
@@ -1289,7 +1289,7 @@ a.btn-theme:focus{
 
 #twitter .interact a {
     margin-right:6px;
-    color:#fff;
+    color:#2d2e2f;
     text-decoration:none;
 }
 
@@ -1340,7 +1340,7 @@ a.btn-theme:focus{
     margin-left:7px;
     font-size:42px;
     line-height:38px;
-    color:#fff;
+    color:#2d2e2f;
     border-radius:50%;
     -webkit-transition:all .2s ease-out;
     transition:all .2s ease-out;
@@ -1363,7 +1363,7 @@ a.btn-theme:focus{
 }
 
 #twitter-slider .flex-direction-nav a:hover {  
-    background:#fff;
+    background:#2d2e2f;
     color:#21B799;
 }
 
@@ -1459,7 +1459,7 @@ a.btn-theme:focus{
 }
 
 #contact-form .form-control:focus {
-    background:#fff;
+    background:#2d2e2f;
     border-bottom:3px solid #21B799;
     outline:none;
     box-shadow:none;
@@ -1568,11 +1568,11 @@ a.btn-theme:focus{
     width:100px;
     height:100px;
     margin:0 auto 30px;
-    border:4px solid #fff;
+    border:4px solid #2d2e2f;
     border-radius:50%;
     font-size:32px;
     line-height:92px;
-    color:#fff;
+    color:#2d2e2f;
     -webkit-transition:all 0.2s ease-out;
     transition:all 0.2s ease-out;
 }
@@ -1586,7 +1586,7 @@ a.btn-theme:focus{
     height:126px;
     top:-17px;
     left:-17px;
-    border:3px solid #fff;
+    border:3px solid #2d2e2f;
     border-radius:50%;
     opacity:0;
     -webkit-transform:scale(0.8);
@@ -1596,8 +1596,8 @@ a.btn-theme:focus{
 }
 
 #social-links .icon:hover{
-    background:#fff;
-    border-color:#fff;
+    background:#2d2e2f;
+    border-color:#2d2e2f;
 }
 
 #social-links .icon:hover:after{
@@ -1636,7 +1636,7 @@ a.btn-theme:focus{
 -----Footer Styles-----
 ------------------------*/
 #main-footer {
-    background:#fff;
+    background:#2d2e2f;
     color:#21B799;
     padding:30px 0;
 }
@@ -1932,7 +1932,7 @@ a.btn-theme:focus{
 }
 
 #main-nav{
-    background:#fff;
+    background:#2d2e2f;
     border-bottom:1px solid #ddd;
 }
 
