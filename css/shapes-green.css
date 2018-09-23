@@ -220,7 +220,7 @@ a:focus,
     font-weight:100;
     text-align:center;
 	text-transform:uppercase;
-    color:#7c7c7c;
+    color:rgb(213, 210, 210);
 }
 
 .section-description {
@@ -1519,7 +1519,16 @@ a.btn-theme:focus{
 	-webkit-animation: scaling 2.2s linear infinite;
 	animation: scaling 2.2s ease-out infinite;
 }
-
+#profile-image {
+ height: 50vh;
+ border: 10px white solid;
+ margin: 15px;
+ border-radius: 150px;
+}
+#profile-image-div {
+    margin: 15px;
+    padding: 15px;
+}
 @-webkit-keyframes scaling {
 	0% 		{ -webkit-transform: scale(0); opacity:0; }
 	40% 	{ -webkit-transform: scale(3); opacity:0.8; }

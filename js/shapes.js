@@ -209,7 +209,7 @@ $(document).ready(function() {
 			{
 				gap:{y:-120},
 				animation:{
-					duration:1000
+					b:1000
 				}
 		});
 			
