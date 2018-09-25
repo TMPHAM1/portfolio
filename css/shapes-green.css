@@ -9,6 +9,7 @@ body{
 	overflow-x:hidden;
 }
 
+
 h1,
 h2,
 h3,
@@ -993,7 +994,7 @@ a.btn-theme:focus{
 }
 
 #project-preview {
-    color:black;
+    color:white;
     -webkit-transform:scale(0);
     transform:scale(0);
     -webkit-transition:all .6s ease-out;
@@ -1029,6 +1030,10 @@ a.btn-theme:focus{
     font-weight:300;
     text-transform:uppercase;
     letter-spacing:0.02em;
+    color:white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    font-size: 50px
 }
 
 #project-preview p{
