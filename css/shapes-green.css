@@ -1867,7 +1867,9 @@ a.btn-theme:focus{
 	-ms-transform: translateY(0px);
 	transform:translateY(0px);
 }
-
+.skill-container {
+    display: inline-block;
+}
 /*-----------------------
 ------ Scrollbar --------
 ------------------------*/
@@ -1933,9 +1935,10 @@ a.btn-theme:focus{
 }
 
 @media (max-width: 767px) {
-    .skills img {
-        height: 8vh;
-    }
+
+        .skills img { 
+            height:10vh;    
+        }
 #main-nav .navbar-brand{
     font-size:24px;
 }
@@ -2057,11 +2060,7 @@ a.btn-theme:focus{
 }
 }
 
-@media (min-width:427px) and (max-width: 623px) {
-    
-}
- 
-
+@media  (max-width: 531px) {
 
 
 @media (max-width: 479px) {
