@@ -1009,11 +1009,11 @@ a.btn-theme:focus{
    
     /* background-color: white; */
 }
-.concertBuddyBackground {
+/* .concertBuddyBackground {
     background-image: url('../assets/projects/concert_background.jpeg');
     background-repeat: no-repeat;
     background-size:  cover;
-}
+} */
 
 .no-overlay #project-preview-wrapper {
     background:rgba(0,0,0,0.4);
