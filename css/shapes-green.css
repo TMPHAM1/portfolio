@@ -1,6 +1,16 @@
 /*--------------------
 -----Main Styles------
 ----------------------*/
+.modal {
+        position: absolute !important;
+        width: 100%;
+}
+.modal-backdrop {
+    z-index: -99 !important;
+}
+.infoBody { 
+    height: 50%
+}
 body{
 	font-family: Roboto, sans-serif;
 	font-size:18px;

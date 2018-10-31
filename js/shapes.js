@@ -1,5 +1,52 @@
 $(document).ready(function() {
 	/*============================================
+	Personal Functions 
+	===============================================*/
+// 	$('.skillsIcon').on("click", function() {
+// 		var pos = $(this).position("top");
+// 		$('#infoModal').modal("show");
+// 			$('#infoModal').css({"margin-top": '',
+// 		"margin-right": '',
+// 		"margin-left": ''});
+// 		console.log(pos)
+// 		if (window.innerWidth > 350) { // NON MOBILE
+// 			if (pos.left > (window.outerWidth/2) ) {
+// 				$('#infoModal').css({"margin-top": pos.top,
+// 		"margin-right": outerWidth - pos.left});
+// 			}
+// 			else {
+// 				$('#infoModal').css({"margin-top": pos.top,
+// 				"margin-left": pos.left + 200});
+// 			}	
+// 	getData(this.id);
+		
+// }
+// 	else {
+// 		$('#infoModal').css({"margin-top": pos.top,});
+// 	}
+// 	})
+// 	function getData(id) {
+// 		console.log(id);
+// 		console.log(typeof id); 
+// 		var infoUrl;
+// 		switch (id) {
+// 			case 'javascript':
+// 			infoUrl = "https://developer.mozilla.org/en-US/docs/Web/JavaScript";
+// 			break;
+// 			default:
+// 			 infoUrl = "None";
+// 		}
+// 		$('.modalTitle').text(id);
+// 		var ajaxOptions = {
+// 			url: infoUrl,
+// 			type: "GET",
+// 			success: function(resp) {
+// 				$('.infoBody').html(resp);
+// 			} 
+// 		}
+// 		$.ajax(ajaxOptions)
+// 	}
+	/*============================================
 	Page Preloader
 	==============================================*/
 	
