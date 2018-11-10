@@ -805,7 +805,7 @@ a.btn-theme:focus{
     margin:0;
     margin-bottom:20px;
     width:350px;
-    border:1px solid #e5e5e5;
+    border:3px solid #e5e5e5;
 	-webkit-transform: scale(1);
 	-moz-transform: scale(1);
 	-ms-transform: scale(1);
@@ -1474,7 +1474,7 @@ a.btn-theme:focus{
 }
 
 #contact-form .form-control:focus {
-    background:#2d2e2f;
+    background:white;
     border-bottom:3px solid #21B799;
     outline:none;
     box-shadow:none;
