@@ -184,6 +184,12 @@ a:focus,
     font:0/0 a;
 }
 
+
+
+.navbar-brand span {
+    font-size:50%;
+}
+
 .navbar {
     margin:0;
     border-radius:0;
@@ -436,7 +442,7 @@ a.btn-theme:focus{
     background:transparent;
     color:#2d2e2f;
     padding:0;
-    margin-bottom:0;
+    /* margin-bottom:0; */
     min-height:500px;
 }
 
