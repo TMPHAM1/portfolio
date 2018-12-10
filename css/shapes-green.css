@@ -2143,3 +2143,9 @@ p {
 }
 
 }
+@media (min-width: 767px) {
+    .navbar>.container .navbar-brand {
+        font-size: larger;
+
+    }
+}
