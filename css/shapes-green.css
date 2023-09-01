@@ -1544,7 +1544,14 @@ a.btn-theme:focus{
  height: 50vh;
  border: 10px white solid;
  margin: 15px;
- border-radius: 150px;
+ border-radius: 50%;
+ width: 50vh;
+ background-image: url("http://www.focusdancecenter.com/wp-content/uploads/2016/01/IMG_6357-683x1024.jpg");
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+#profile-image-container{ 
+    padding-bottom: 5%
 }
 #profile-image-div {
     margin: 15px;
