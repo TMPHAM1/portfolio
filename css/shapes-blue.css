@@ -835,6 +835,7 @@ a.btn-theme:focus{
     transition:border-color .2s ease-out;
 }
 
+
 .project-item .details h3{
     margin:0;
     -webkit-transition:color .2s ease-out;
@@ -855,6 +856,7 @@ a.btn-theme:focus{
 .project-item.active .details {
     border-bottom:3px solid #5AA9CE;
 }
+
 
 .project-item:hover h3,
 .project-item.active h3 {
